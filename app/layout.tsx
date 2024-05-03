@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const Layout = ({ children }) => (
-    <div>
-        <header>Header</header>
-        <main>{children}</main>
-        <footer>Footer</footer>
-    </div>
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => (
+  <div>
+    <header>Header</header>
+    <main>{children}</main>
+  </div>
 );
 
 export default Layout;
