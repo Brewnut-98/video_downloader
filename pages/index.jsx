@@ -113,7 +113,7 @@ export default function Component() {
       </header>
       <main className="py-8 bg-white">
         <div className="container mx-auto">
-          <div className="flex flex-col items-center py-12 sm:py-16 gap-4">
+          <div className="flex flex-col items-center py-12 sm:py-16 gap-4 -mt-10">
             <h1 className="text-4xl font-bold">哔哩哔哩视频下载</h1>
             <div className="flex flex-col w-full max-w-3xl">
               <div className="flex flex-col sm:flex-row items-center gap-2 pt-8">
