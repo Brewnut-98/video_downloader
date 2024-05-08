@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.how-to-download {
+  position: relative;
+  max-width: 5xl;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+.how-to-download-content {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+@keyframes spin {
+  to {
+      transform: rotate(1turn)
+  }
+}
