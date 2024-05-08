@@ -210,14 +210,10 @@ export default function Component() {
                 <div className="text-center text-sm">{title}</div>
                 <div className="flex items-center gap-2 justify-center flex-wrap">
                   {downloadLink && (
-                    <a href={downloadLink} target="_blank" rel="noreferrer" download="Video.mp4" className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-black text-white px-4 py-2 hover:bg-opacity-90 h-10">
-                      下载视频
-                    </a>
+                    <a href={downloadLink} target="_blank" rel="noreferrer" download="Video.mp4" className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-black text-white px-4 py-2 hover:bg-opacity-90 h-10">下载视频</a>
                   )}
                   {pic && (
-                    <a href={pic} target="_blank" rel="noreferrer" download="Cover.jpg" className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-white text-black border border-gray-300 px-4 py-2 hover:bg-gray-100 h-10">
-                      下载封面
-                    </a>
+                    <a href={pic} target="_blank" rel="noreferrer" download="Cover.jpg" className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-white text-black border border-gray-300 px-4 py-2 hover:bg-gray-100 h-10">下载封面</a>
                   )}
                 </div>
                 <p className="text-sm text-center text-gray-500 pb-2 pt-1">如果点击下载按钮后没有直接下载，请尝试在下载按钮上点击鼠标右键，然后选择"链接另存为..."</p>
@@ -316,24 +312,19 @@ export default function Component() {
             </h3>
             <ul className="space-y-2">
               <li className="text-sm text-gray-800">
-                <a className="hover:underline" href="/zh/article/how-to-download-anyones-song-on-suno-ai-in-mp3-easily">如何轻松地下载Suno AI平台上任何人创作的歌曲？
-                </a>
+                <a className="hover:underline" href="/zh/article/how-to-download-anyones-song-on-suno-ai-in-mp3-easily">如何轻松地下载Suno AI平台上任何人创作的歌曲？</a>
               </li>
               <li className="text-sm text-gray-800">
-                <a className="hover:underline" href="/zh/article/how-to-download-videos-images-and-gifs-from-threads">如何下载Threads视频图片？教你个简单便捷的方法
-                </a>
+                <a className="hover:underline" href="/zh/article/how-to-download-videos-images-and-gifs-from-threads">如何下载Threads视频图片？教你个简单便捷的方法</a>
               </li>
               <li className="text-sm text-gray-800">
-                <a className="hover:underline" href="/zh/article/how-do-i-download-facebook-videos-to-my-phone-or-laptop">如何在线下载保存Facebook社交视频、影片？
-                </a>
+                <a className="hover:underline" href="/zh/article/how-do-i-download-facebook-videos-to-my-phone-or-laptop">如何在线下载保存Facebook社交视频、影片？</a>
               </li>
               <li className="text-sm text-gray-800">
-                <a className="hover:underline" href="/zh/article/how-can-i-download-snapchat-stories-lenses-and-spotlight-videos">如何下载Snapchat故事、特效镜头和Spotlight视频？
-                </a>
+                <a className="hover:underline" href="/zh/article/how-can-i-download-snapchat-stories-lenses-and-spotlight-videos">如何下载Snapchat故事、特效镜头和Spotlight视频？</a>
               </li>
               <li className="text-sm text-gray-800">
-                <a className="hover:underline" href="/zh/article/how-to-download-videos-from-vk-on-pc-and-mobile">如何在电脑和手机上下载俄罗斯VK(VKontakte)视频？
-                </a>
+                <a className="hover:underline" href="/zh/article/how-to-download-videos-from-vk-on-pc-and-mobile">如何在电脑和手机上下载俄罗斯VK(VKontakte)视频？</a>
               </li>
             </ul>
           </div>
